@@ -359,6 +359,7 @@ section.recent-news p{
     }
     /* end navbar component */
 
+
     /* hero component */
     section.hero{
         height: 1500px;
@@ -373,6 +374,7 @@ section.recent-news p{
     }
 
     /* end hero component */
+
 
     /* help component */
     section.help{
@@ -390,5 +392,46 @@ section.recent-news p{
         font-size: 32px;
     }
     /* end help component */
+
+
+    /* what we do component */
+    section.what-we-do{
+        padding: 30px 0px;
+        margin-top: 16px;
+    }
+    /* end what we do component */
+
+
+    /* latest component */
+    section.latest-project .box-project{
+        height: auto !important;
+    }
+    /*end what we do component  */
+
+
+    /* tagline component */
+    section.tagline{
+        width: 100%;
+        height: auto;
+        padding:30px 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    section.tagline h1{
+        font-size: 22px;
+        line-height: 150%;
+        font-weight: 700;
+    }
+    /* end tagline component */
+
+
+    /* recent news compnent */
+    section.recent-news .box{
+        width:100%;
+        height: auto;
+        margin: 32px 0px 0px 0px;
+    }
+    /* end recent news componeny */
 }
 /* end mobile view */
