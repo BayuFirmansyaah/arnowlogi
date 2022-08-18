@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --grey-primary : #161616;
+    --text-primary: #141414;    
+    --orange-primary: #F35A2A;
+}
+
+body{
+    background-color:  #E5E5E5;
+}
+
+*{
+    font-family: 'Space Grotesk', sans-serif;
+    box-sizing: border-box;
+}
+
+.f-poppins{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+
+@media(max-width:600px){
+    .break{
+        display: none;
+    }
+}
