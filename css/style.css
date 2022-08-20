@@ -351,6 +351,100 @@ section.recent-news p{
 /* end recent news component */
 
 
+/* ipad view */
+@media(max-width:992px){
+    /* navbar component*/
+    .navbar .cta-nav{
+        width: 100%;
+    }
+    /* end navbar component */
+
+
+    /* hero component */
+    section.hero{
+        height: 1500px;
+    }
+
+    .hero-text{
+        font-size: 48px;
+    }
+
+    .hero-box{
+        margin:16px 0px;
+    }
+
+    .hero-box .title{
+        font-size: 28px;
+    }
+
+    .hero-box p{
+        font-size: 18px;
+    }
+
+    /* end hero component */
+
+
+    /* help component */
+    section.help{
+        margin-top: 160px;
+    }
+
+    section.help .box-icon-image{
+        margin-top: 0px;
+        margin-bottom: -32px;
+    }
+
+    .what-we-do h2,
+    .latest-project h2,
+    .recent-news h2{
+        font-size: 32px;
+    }
+    /* end help component */
+
+
+    /* what we do component */
+    section.what-we-do{
+        padding: 30px 0px;
+        margin-top: 16px;
+    }
+    /* end what we do component */
+
+
+    /* latest component */
+    section.latest-project .box-project{
+        height: auto !important;
+    }
+    /*end what we do component  */
+
+
+    /* tagline component */
+    section.tagline{
+        width: 100%;
+        height: auto;
+        padding:30px 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    section.tagline h1{
+        font-size: 22px;
+        line-height: 150%;
+        font-weight: 700;
+    }
+    /* end tagline component */
+
+
+    /* recent news compnent */
+    section.recent-news .box{
+        width:100%;
+        height: auto;
+        margin: 32px 0px 0px 0px;
+    }
+    /* end recent news componeny */
+}
+/* end ipad view */
+
+
 /* mobile view */
 @media(max-width:600px){
     /* navbar component*/
